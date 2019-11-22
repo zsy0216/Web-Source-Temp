@@ -55,6 +55,8 @@ $(function () {
         }
     });
 
+
+
     $("#jieshao").css("color", "#fff");
     $("#jieshao").css("background", "#2d8acb");
     $("#youshi").css("background", "#fff");
@@ -74,6 +76,9 @@ $(function () {
         $("#gsfc-video").css("display", "block");
         let myvideo =  document.getElementById("zyjs-video");
         myvideo.pause();
+        let myvideo1 =  document.getElementById("gsfc-video");
+        myvideo1.play();
+
 
         $(".info-detail>.heart-1").css("display", "block");
         $(".info-detail>.heart-2").css("display", "none");
@@ -118,6 +123,8 @@ $(function () {
         $("#zyjs-video").css("display", "block");
         let myvideo =  document.getElementById("gsfc-video");
         myvideo.pause();
+        let myvideo1 =  document.getElementById("zyjs-video");
+        myvideo1.play();
 
 
         $(".info-detail>.heart-1").css("display", "none");
@@ -342,4 +349,7 @@ $(function () {
             $("#top").css("display","none");
         }
     });
+
+    let myvideo4 =  document.getElementById("gsfc-video");
+    myvideo4.play();
 });

@@ -172,8 +172,8 @@
 }
 
 .gongsifengcai .content-body .body-right img, #bg-swiper-2 img {
-    width: 80%;
-    height: 84%;
+    width: 70%;
+    height: 100%;
 }
 
 #bg-swiper, #bg-swiper-2 {
@@ -202,7 +202,7 @@
     background-color: #fff;
     height: 1px;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
 }
 
 #video-swiper, #video-swiper-2 {
@@ -217,7 +217,8 @@
 #video-swiper .swiper-wrapper .swiper-slide p,
 #video-swiper-2 .swiper-wrapper .swiper-slide p {
     text-align: left;
-    padding-left: 35px;
+    padding-left: 50px;
+    margin: 0;
 }
 
 .vedio-tabnav .vedio-play {
