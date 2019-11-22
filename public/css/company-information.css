@@ -543,3 +543,53 @@
     left: 350px;
     top: -2px;
 }
+/************************************/
+#swiper-vedio .swiper-wrapper .swiper-slide{
+    position: relative;
+}
+#swiper-vedio .swiper-wrapper .swiper-slide .img-info{
+    position: absolute;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;/* 隐藏旋转元素的背面*/
+    backface-visibility: hidden;
+    background: rgba(0, 0, 0, 0.6);   /*后面这个0.6是指的背景的透明度*/
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;   /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+#swiper-vedio .swiper-wrapper .swiper-slide:hover .img-info{
+    opacity: 1;
+}
+/*******/
+#swiper-vedio-2 .swiper-wrapper .swiper-slide{
+    position: relative;
+}
+#swiper-vedio-2 .swiper-wrapper .swiper-slide .img-info2{
+    position: absolute;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;/* 隐藏旋转元素的背面*/
+    backface-visibility: hidden;
+    background: rgba(0, 0, 0, 0.6);   /*后面这个0.6是指的背景的透明度*/
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;   /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+#swiper-vedio-2 .swiper-wrapper .swiper-slide:hover .img-info2{
+    opacity: 1;
+}

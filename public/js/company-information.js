@@ -1,4 +1,6 @@
 $(function () {
+	let myvideo4 =  document.getElementById("gsfc-video");
+	myvideo4.play();
     $("#swiper-vedio>.swiper-wrapper>.swiper-slide>img").click(function () {
         let src = $(this).attr("src");
         let myvideo =  document.getElementById("gsfc-video");
@@ -7,6 +9,17 @@ $(function () {
         $("#gsfc-img").css("display", "block");
         myvideo.pause();
     });
+
+    /*阴影部分点击事件*/
+    $("#swiper-vedio>.swiper-wrapper>.swiper-slide>.img-info").click(function () {
+        let src = $(this).parent().children("img").attr("src");
+        let myvideo =  document.getElementById("gsfc-video");
+        $("#gsfc-video").css("display", "none");
+        $("#gsfc-img").attr("src", src);
+        $("#gsfc-img").css("display", "block");
+        myvideo.pause();
+    });
+
 
     $("#video-swiper .swiper-slide img").click(function () {
         let src = $(this).attr("video-src");
@@ -25,6 +38,19 @@ $(function () {
         $("#zyjs-img").css("display", "block");
 
     });
+     /*阴影部分点击事件*/
+    $("#swiper-vedio-2>.swiper-wrapper>.swiper-slide>.img-info2").click(function () {
+        let src = $(this).parent().children("img").attr("src");
+        let myvideo =  document.getElementById("zyjs-video");
+        myvideo.pause();
+        $("#zyjs-video").css("display", "none");
+        $("#zyjs-img").attr("src", src);
+        $("#zyjs-img").css("display", "block");
+
+    });
+
+
+
 
     $("#video-swiper-2 .swiper-slide img").click(function () {
         let src = $(this).attr("video-src");
@@ -350,6 +376,10 @@ $(function () {
         }
     });
 
-    let myvideo4 =  document.getElementById("gsfc-video");
-    myvideo4.play();
+   let myvideo5 =  document.getElementById("gsfc-video");
+   myvideo5.play();
+   /*視頻下方圖片的mousehover事件*/
+//    $("#swiper-vedio img").hover(function(){
+// 	   $(this).CSS("background","black");
+// 	 });
 });
