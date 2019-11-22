@@ -1,0 +1,89 @@
+.hangyeyoushi .xialkuang {
+    height: 182px;
+}
+
+.h-total {
+    width: 100%;
+    height: 70px;
+    background-color: #a0a9a8;
+    clear: both;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select, .select-two, .select-three, .select-four {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 30px;
+
+    /*position: absolute;*/
+    /*z-index: 99;*/
+    /*display: inline-block;*/
+}
+
+.h, .ah1, .ah2, .ah3 {
+    /*position: relative;*/
+    width: 18%;
+    float: left;
+    /*display: inline-block;*/
+    margin: 20px;
+    background-color: #fff;
+}
+
+.select, .select-two, .select-three, .select-four span {
+    cursor: pointer;
+    width: 100%;
+}
+
+.select1, .select-two1, .select-three1, .select-four1 {
+    display: none;
+    width: 100%;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #fff;
+}
+
+.select1-div {
+    border-bottom: 1px solid black;
+    height: 30px;
+}
+
+.select1-div input {
+    text-align: left;
+    float: left;
+}
+
+.select1-div:hover {
+    background-color: #8e8e8e;
+    cursor: pointer;
+}
+
+.show i{
+    cursor: pointer;
+}
+
+.show {
+    clear: both;
+    /*display: none;*/
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    /*display: inline;*/
+}
+
+#clear {
+    margin: 15px;
+    display: none;
+    float: left;
+    /*display: inline;*/
+    cursor: pointer;
+}
+#clear:hover{
+    color: #ff0000;
+}

@@ -1,0 +1,108 @@
+.conpany-detail h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.company-list {
+    margin: 0 auto;
+}
+
+.company-list .media {
+    padding: 30px;
+    box-shadow: 0 0 5px #c0c0c0;
+}
+
+.company-list .media .media-left {
+    float: left;
+}
+
+.company-list .media:hover {
+    background-color: #cbcbcb;
+}
+
+.company-list .media .media-body {
+    /*width: 55%;*/
+}
+
+.company-list .media .media-body button {
+    margin-right: 3%;
+    width: 80px;
+    border-radius: 100px;
+}
+
+.company-list .media .media-right {
+    /*margin-top: 10%;*/
+}
+
+.company-list .media .media-right .guanzhu {
+    margin-top: 15%;
+}
+
+.company-list .media .media-right .guanzhu i {
+    font-size: 18px;
+    color: white;
+    -webkit-text-stroke: 1.2px #000;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.company-list .more-list{
+    margin: 20px;
+    text-align: center;
+}
+
+.company-list .more-list button {
+}
+
+
+/* 中间分类选择 */
+.company-category {
+    font-size: 16px;
+}
+
+.company-category .cc-key {
+    padding-top: 5px;
+    height: 30px;
+}
+
+.company-category .value-list ul {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 0;
+    width: 100%;
+    height: 30px;
+    list-style: none;
+    border-bottom: 2px solid #c0c0c0;
+    text-underline: none;
+
+}
+
+.company-category .value-list ul li {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 4px;
+}
+
+.company-category .value-list ul li a {
+    color: #000;
+
+}
+
+.company-category .value-list ul li a:hover {
+    color: #b4229e;
+    font-weight: bold;
+    text-underline: none;
+}
+
+.value-list:last-child ul {
+    margin-bottom: 10px;
+    border-bottom: 0px;
+}
+
+.value-list input {
+    width: 34px;
+}

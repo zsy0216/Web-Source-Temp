@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>首页</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./joker/css/joker.css"/>
+    <link rel="stylesheet" type="text/css" href="./joker/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="./joker/css/head.css"/>
+    <link rel="stylesheet" type="text/css" href="./joker/css/test1.css"/>
+    <link rel="stylesheet" type="text/css" href="./joker/css/test3.css"/>
+    <link rel="stylesheet" type="text/css" href="./joker/css/index-model.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./public/css/index-head.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/css.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/lightbox.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/swiper.min.css"/>
+
+
+    <script src="./joker/jquery/jquery.min.js"></script>
+    <script src="./joker/js/joker.js"></script>
+    <script src="./joker/css/test1.js"></script>
+    <script src="./joker/css/test3.js"></script>
+    <script src="./joker/css/head.js"></script>
+    <script src="./joker/css/index.js"></script>
+    <style>
+        /* .topbar {
+             !* z-index: 1100; *!
+             width: 100%;
+             height: 30px;
+             padding: 0 20px;
+             color: #fff;
+             font-size: 14px;
+             background-color: #323232;
+         }
+
+         .topbar .bagn {
+             float: left;
+             padding: 0 15px;
+             line-height: 30px;
+             text-align: center;
+             vertical-align: top;
+             margin-right: 58%;
+         }
+
+         .topbar .login {
+             float: left;
+             padding: 0 15px;
+             line-height: 30px;
+             text-align: center;
+             vertical-align: top;
+         }
+
+         .topbar .myreq {
+             float: left;
+             padding: 0 15px;
+             line-height: 30px;
+             text-align: center;
+             vertical-align: top;
+         }
+
+         .topbar .join {
+             float: right;
+             padding: 0 13px;
+             line-height: 30px;
+             text-align: center;
+             vertical-align: top;
+         }
+
+         #navbar .navbar-nav li a {
+             color: #000;
+             font-size: 20px;
+             padding-left: 10px;
+         }
+
+         .container-fluid > .navbar-collapse,
+         .container-fluid > .navbar-header,
+         .container > .navbar-collapse,
+         .container > .navbar-header {
+             margin-right: 40px;
+         }
+
+         .swiper-slide {
+         }*/
+    </style>
+</head>
+
+<body>
+<div class="topbar">
+    <div class="bagn">
+        <span>帮助企业，共创未来</span>
+    </div>
+    <div class="login">
+        <span>注册/登录</span>
+    </div>
+    <div class="myreq">
+        <span>我的请求</span>
+        <span class="caret"></span>
+    </div>
+    <div class="join">
+			<span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp加入我们<span
+                    class="caret"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			</span>
+        <div>
+            <p><span>关注myOffer小助手</span></p>
+            <p><span>获取海量留学信息</span></p>
+            <img src="img/王也1.png" alt="">
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="">
+            </a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="./index.html">首页</a></li>
+                <li class="dropdown">
+                    <a href="./qiyeku.html">企业库</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">申请流程 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">二级菜单1</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">二级菜单2</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">二级菜单3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="true">搜大学 <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">其他1</a></li>
+                            <li><a href="#">其他2</a></li>
+                            <li><a href="#">其他3</a></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                    <input type="text" class="form-control" aria-label="...">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                </div><!-- /input-group -->
+            </form>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+</nav>
+
+<!-- 主要特效 -->
+<div class="container-fluid container-1">
+    <div class="row" style="height: 540px;">
+        <div class="col-md-3 col-md-change-1">
+            <div class="index-school">
+                <div class="school-lists">
+                    <ul class="school-img">
+                        <li class="school1 active1">
+                            <a href="#" target="_blank">
+                                <div class="sch-img-bg"></div>
+                                <div class="sch-img sch-img1">
+                                </div>
+                                <div class="sch-font-w">
+                                    <div class="sch-place">英国</div>
+                                    <div class="sch-count">133所大学</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="school2">
+                            <a href="#" target="_blank">
+                                <div class="sch-img-bg"></div>
+                                <div class="sch-img sch-img2">
+                                </div>
+                                <div class="sch-font-w">
+                                    <div class="sch-place">澳大利亚</div>
+                                    <div class="sch-count">36所大学</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="school3">
+                            <a href="#" target="_blank">
+                                <div class="sch-img-bg"></div>
+                                <div class="sch-img sch-img3">
+                                </div>
+                                <div class="sch-font-w">
+                                    <div class="sch-place">美国</div>
+                                    <div class="sch-count">280所大学</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div id="c-p-1" class="company-profile">
+                <div class="profile-1">
+                    <span>荷兰飞利浦公司</span><br/>
+                    <span class="text-muted">Royal Dutch Philips Electronics Ltd
+							<div style="height:1.5px; width: 226px; margin:2px auto;background-color:gray;"></div>
+						</span>
+                </div>
+                <div class="profile-2">
+                    <div>
+                        <span>关于飞利浦我们的故事</span>
+                    </div>
+                </div>
+                <div class="profile-3">
+                    <div>
+                        <span>关于飞利浦我们的产品</span>
+                    </div>
+                </div>
+                <div class="profile-4">
+                    <div>
+                        <span>关于飞利浦我们的企业</span>
+                    </div>
+                </div>
+                <div class="profile-5">
+                    <div>
+                        <span>关于飞利浦我们的品质</span>
+                    </div>
+                </div>
+                <div class="profile-6">
+                    <div class="pull-right">
+                        <span class="glyphicon glyphicon-refresh"></span>
+                        <span>换一批</span>
+                    </div>
+                </div>
+            </div>
+            <div id="c-p-2" class="company-profile">
+                <div class="profile-1">
+                    <span>荷兰飞利浦公司2</span><br/>
+                    <span class="text-muted">Royal Dutch Philips Electronics Ltd
+							<div style="height:1.5px; width: 226px; margin:2px auto;background-color:gray;"></div>
+						</span>
+                </div>
+                <div class="profile-2">
+                    <div>
+                        <span>关于飞利浦我们的故事</span>
+                    </div>
+                </div>
+                <div class="profile-3">
+                    <div>
+                        <span>关于飞利浦我们的产品</span>
+                    </div>
+                </div>
+                <div class="profile-4">
+                    <div>
+                        <span>关于飞利浦我们的企业</span>
+                    </div>
+                </div>
+                <div class="profile-5">
+                    <div>
+                        <span>关于飞利浦我们的品质</span>
+                    </div>
+                </div>
+                <div class="profile-6">
+                    <div class="pull-right">
+                        <span class="glyphicon glyphicon-refresh"></span>
+                        <span>换一批</span>
+                    </div>
+                </div>
+            </div>
+            <div id="c-p-3" class="company-profile">
+                <div class="profile-1">
+                    <span>荷兰飞利浦公司3</span><br/>
+                    <span class="text-muted">Royal Dutch Philips Electronics Ltd
+							<div style="height:1.5px; width: 226px; margin:2px auto;background-color:gray;"></div>
+						</span>
+                </div>
+                <div class="profile-2">
+                    <div>
+                        <span>关于飞利浦我们的故事</span>
+                    </div>
+                </div>
+                <div class="profile-3">
+                    <div>
+                        <span>关于飞利浦我们的产品</span>
+                    </div>
+                </div>
+                <div class="profile-4">
+                    <div>
+                        <span>关于飞利浦我们的企业</span>
+                    </div>
+                </div>
+                <div class="profile-5">
+                    <div>
+                        <span>关于飞利浦我们的品质</span>
+                    </div>
+                </div>
+                <div class="profile-6">
+                    <div class="pull-right">
+                        <span class="glyphicon glyphicon-refresh"></span>
+                        <span>换一批</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-3">
+            <div class="company-search">
+                <div class="c-s-header">
+                    <span>智能检索</span>
+                </div>
+
+                <div class="c-s-title-text">请选择您想要的公司类型</div>
+                <div class="c-s-type">
+                    <div class="input-group">
+                        <label><input type="checkbox">国企
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox">私企
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox">合资
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox">合资
+                        </label>
+                    </div>
+                </div>
+
+                <div class="c-s-title-text">请选择是否接受线上销售
+                    <div id="span-img"></div>
+                    <span id="span-img-mouseover">您选中了问号！！</span>
+                </div>
+                <div class="c-s-online">
+                    <div class="input-group">
+                        <label><input type="checkbox">是
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox">否
+                        </label>
+                    </div>
+                </div>
+                <div class="c-s-title-text" style="margin-bottom: 20px;">
+                    <span>请选择您意向的行业</span>
+                    <select>
+                        <option>金融</option>
+                        <option>科技</option>
+                        <option>服务</option>
+                    </select>
+                </div>
+                <div class="c-s-title-text">请选择您目前的公司类型</div>
+                <div class="c-s-type">
+                    <label><input type="radio" name="check-box" id="guo-qi-checkbox"
+                                  value="guo-qi-checkbox">国企</label>
+                    <label><input type="radio" name="check-box" id="si-qi-checkbox"
+                                  value="si-qi-checkbox">私企</label>
+                </div>
+                <!--国企需填写的内容--以下-->
+                <div class="company-content" id="guo-qi-content">
+                    <input type="text" value="请填写您的公司年销售额（国企）" readonly>
+                    <input type="text" placeholder="例如：8500000">
+                    <input type="text" value="请填写您的公司人员人数/场地面积" readonly>
+                    <input type="text" placeholder="例如：8500000000">
+                    <input type="text" readonly>
+                    <input type="text" placeholder="例如：8500000000">
+                </div>
+                <!--国企需填写的内容--以上-->
+                <!--私企需填写的内容--以下-->
+                <div class="company-content" id="si-qi-content">
+                    <input type="text" value="请填写您的公司年销售额（私企）" readonly>
+                    <input type="text" placeholder="例如：8500000">
+                    <input type="text" value="请填写您的公司人员人数/场地面积" readonly>
+                    <input type="text" placeholder="例如：8500000000">
+                    <input type="text" readonly>
+                    <input type="text" placeholder="例如：8500000000">
+                </div>
+                <!--私企需填写的内容--以上-->
+                <button class="btn btn-default" id="btn-serch">开始检索</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- 中间内容 -->
+<!--解决方案 start here-->
+<div class="container-fluid">
+    <div class="bg1">
+        <div class="features-top">
+            <p class="wow fadeInUp" data-wow-delay=".2s"
+               style="visibility: visible; animation-delay:.2s; animation-name: fadeInUp;"><img
+                    src="images/ti1.png" class="img-responsive" style="margin: 0 auto;"></p>
+            <p class="wow fadeInUp" data-wow-delay=".5s"
+               style="visibility: visible; animation-delay:.5s; animation-name: fadeInUp;">
+                私立高中、公立高中（F1）、语言学校、社区大学、职业和技术学校、中小学短期插班。</p>
+        </div>
+        <div class="lxbox">
+            <div class="col-md-6 bann-info-left lxbox-1 wow fadeInUp" data-wow-delay="0.8s"
+                 style="visibility:visible; animation-delay:0.8s; animation-name:fadeInUp;">
+                <p>包括留学策划、文书写作、申请、后续追踪、面试及签证辅导在内的全套操作。 </p>
+            </div>
+            <div class="col-md-6 bann-info-left lxbox-2 wow fadeInUp" data-wow-delay="1s"
+                 style="visibility:visible; animation-delay:1s; animation-name:fadeInUp;">
+                <p>合理可靠安排，跟踪服务，紧急情况处理，密切联系学校和国内家长。 </p>
+            </div>
+            <div class="col-md-6 bann-info-left lxbox-3 wow fadeInUp" data-wow-delay="1.2s"
+                 style="visibility:visible; animation-delay:1.2s; animation-name:fadeInUp;">
+                <p>机场接送、升学咨询、旅行安排、移民及其他咨询。 </p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <!-- <div class="bann-info-btn wow fadeInUp" data-wow-delay="1.5s"
+            style="visibility:visible; animation-delay: 0s; animation-name:fadeInUp;"><a class="button"
+                href="#">立即咨询详情</a>
+            <div class="clearfix"> </div> -->
+    </div>
+
+</div>
+
+<!--选择留学服务机构时 start here-->
+<div class="testimonal bg2">
+    <div class="container">
+        <div class="zxcase zx-1 wow fadeInRight" data-wow-delay="0s"
+             style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+            <b></b>
+            <p>钱花了，精力费了，<span>依旧没顺利留学，付出与回报不成正比</span></p>
+        </div>
+        <div class="zxcase zx-2 wow fadeInRight" data-wow-delay="0.3s"
+             style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+            <b></b>
+            <p>钱花了，精力费了，<span>钱比别人花得多，环境服务却比人家差</span></p>
+        </div>
+        <div class="zxcase zx-3 wow fadeInRight" data-wow-delay="0.6s"
+             style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+            <b></b>
+            <p>钱花了，精力费了，<span>留学申请办不了，申请费用也不给退</span></p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="bann-info-btn1 wow fadeInUp" data-wow-delay="0.9s"
+             style="visibility:visible; animation-delay: 0s; animation-name:fadeInUp;"><a class="button"
+                                                                                          href="#">咨询对应方案</a></div>
+    </div>
+</div>
+
+<!--we work strat her-->
+<div class="container-fluid">
+    <div class="we-work bg3">
+        <div class="liyou-left">
+            <ul>
+                <li class=" wow fadeInLeft" data-wow-delay="0s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                    <p><img src="images/title-01.png"></p>
+                    <h4>历史悠久，强调精英教育</h4>
+                    <p>美国的中学大多有近百年的发展史，继承了美国传统教育的优良传统，秉承精英教育理念发展至今。 <br><br>
+                    </p>
+                </li>
+                <li class=" wow fadeInLeft" data-wow-delay="0.2s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                    <p><img src="images/title-03.png"></p>
+                    <h4>更加多样的课程选择 </h4>
+                    <p>美国中学在必修课之外更拥有丰富的选修课系统。课程内容非常丰富，包括视觉艺术、表演艺术、体育、传媒等。<br>
+                    </p>
+                </li>
+                <li class=" wow fadeInLeft" data-wow-delay="0.4s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                    <p><img src="images/title-05.png"></p>
+                    <h4>提供语言辅导课程等</h4>
+                    <p>为了帮助国际学生尽快适应纯英文教学环境，大多数的美国中学都开设了ESL课程以供学生学习。ESL课程全名为English as Second Language,
+                        是专门针对母语非英语的国际留学生或新移民而开设的一门课程。主要是关于听、说、读、写方面的训练。 </p>
+                </li>
+                <li class=" wow fadeInLeft" data-wow-delay="0.6s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                    <p><img src="images/title-07.png"></p>
+                    <h4>提供升学指导</h4>
+                    <p>美国的学校都有专门的升学指导老师帮助每一个学生更有针对性的选择大学，这些老师大多有着从事招生工作的背景和丰富的指导经验。 </p>
+                </li>
+            </ul>
+        </div>
+        <div class="liyou-right">
+            <ul>
+                <li class=" wow fadeInRight" data-wow-delay="0.1s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    <p><img src="images/title-02.png"></p>
+                    <h4>小班制教学，注重个性发展</h4>
+                    <p>美国的班级设置与中国有着非常大的差距，每个班最多不超过20人，师生比例也会控制在1：10的范围之内，孩子在这样的班级环境中容易得到更多的关注，拥有更具针对性的培养。 </p>
+                </li>
+                <li class=" wow fadeInRight" data-wow-delay="0.3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    <p><img src="images/title-04.png"></p>
+                    <h4>课外活动丰富，注重学生综合素质的培养</h4>
+                    <p>在关注课程设置之外，美国的中学非常注重学生综合素质的培养。他们开设了多样的课外活动以供学生选择。这对学生综合能力的培养是十分有利。 </p>
+                </li>
+                <li class=" wow fadeInRight" data-wow-delay="0.5s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    <p><img src="images/title-06.png"></p>
+                    <h4>提供大学预备课程</h4>
+                    <p>
+                        为了鼓励学生挑战更高水平的学习，美国的中学开设了荣誉课程，AP课程，AC课程等以供学生选择，课程的难度都大于基础课程，学生如果有能力学习这些课程并考核达标后，所修课程在进入大学时可以转换学分，对学生申请优质的大学是有很大帮助的。
+                    </p>
+                </li>
+                <li class=" wow fadeInRight" data-wow-delay="0.7s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    <p><img src="images/title-08.png"></p>
+                    <h4>学生素质得到全面提高</h4>
+                    <p>
+                        美国教育很注重培养学生的全面素质。在中国，学生一旦上了高中，学校、家长和学生的一切中心都是围绕高考。而在美国高中，学校对学生的综合素质培养非常重视，学校的选修课程非常丰富，例如：声乐、器乐等音乐类课程及体育运动类的课程等等，有利于孩子发现、培养自己的兴趣爱好，从而使孩子对学习充满热情，学习积极主动，潜力得到全面挖掘，个性得以充分发挥。
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <!-- <div class="liucheng wow fadeInUp" data-wow-delay=".2s"
+            style="visibility: visible; animation-delay:0s; animation-name: fadeInUp;">了解留学申请<br>
+            的流程</div> -->
+    </div>
+</div>
+<!--we work end here-->
+
+
+<!-- 为啥选择俺们 -->
+<div class="choose-us">
+    <h1>为什么选择我们？</h1>
+    <div id="order_nav" class="gsservice">
+        <div>
+            <ul class="list not_ie">
+                <li id="on1" class="">
+                    <div class="ico _1"><a href="#"></a></div>
+                    <p><span>私立高中、公立高中（F1）、语言学校、社区大学、职业和技术学校、中小学短期插班。</span></p>
+                </li>
+                <li id="on2" class="">
+                    <div class="ico _2"><a href="#"></a></div>
+                    <p><span>从报名到拿证不耽误您1分钟，全程1对1专职服务最快15天搞定，让你从一无所知到顺利出国留学</span></p>
+                </li>
+                <li id="on3" class="">
+                    <div class="ico _3"><a href="#"></a></div>
+                    <p><span>公司成立几年来，充分利用自身的有利条件，依托出色的员工队伍，不断提高专业服务水平</span></p>
+                </li>
+                <li id="on4" class="">
+                    <div class="ico _4"><a href="#"></a></div>
+                    <p><span>合理可靠安排，跟踪服务，紧急情况处理，密切联系学校和国内家长。为您省时省力省心</span></p>
+                </li>
+            </ul>
+        </div>
+        <script>
+            $(function () {
+                $("#on1").mouseover(function () {
+                    $("#on1").addClass("on");
+                });
+                $("#on1").mouseout(function () {
+                    $("#on1").removeClass("on");
+                });
+
+                $("#on2").mouseover(function () {
+                    $("#on2").addClass("on");
+                });
+                $("#on2").mouseout(function () {
+                    $("#on2").removeClass("on");
+                });
+
+                $("#on3").mouseover(function () {
+                    $("#on3").addClass("on");
+                });
+                $("#on3").mouseout(function () {
+                    $("#on3").removeClass("on");
+                });
+
+                $("#on4").mouseover(function () {
+                    $("#on4").addClass("on");
+                });
+                $("#on4").mouseout(function () {
+                    $("#on4").removeClass("on");
+                })
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<!-- 五张图片特效 -->
+<div class="container-fluid">
+    <h2 style="text-align: center; margin-bottom: 20px;">成功案例</h2>
+    <div class="index-page">
+        <div class="success-lists">
+            <ul id="success-img">
+                <li class="student1 active">
+                    <a href="javascript:void(0);" data-toggle="modal" data-target=".success-student-modal-lg-1">
+                        <div class="suc-img-bg"></div>
+                        <div class="img img1">
+                        </div>
+                        <div class="suc-font-w">
+                            <div class="suc-name">袁晓莎</div>
+                            <div class="suc-uni">爱丁堡大学</div>
+                            <div class="suc-uni-font">“谢谢Joy姐姐，Evelyn姐姐，谢谢myOffer平台。”
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- 模态框代码 -->
+                <div class="modal fade success-student-modal-lg-1" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document" style="height: 100%;">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">袁晓莎-爱丁堡大学</h4>
+                            </div>
+                            <!-- 模态框主体开始 -->
+                            <div class="case-body modal-body container">
+                                <div class="row">
+                                    <!-- 左边图片 -->
+                                    <div class="case-left col-md-6">
+                                        <img src="img/王也1.png" width="100%" class="img-responsive img-thumbnail" alt="">
+                                    </div>
+
+                                    <!--<div class="case-name ng-binding" ng-bind="caseData.applicant_name">杨雨萌——上海</div>-->
+                                    <!-- 右侧介绍 -->
+                                    <div class="case-right col-md-6">
+                                        <div class="right-up">
+                                            <p>
+                                                <span>申请专业：</span>
+                                                <span class="text-muted">Business</span>
+                                            </p>
+                                            <p>
+                                                <span>毕业院校：</span>
+                                                <span class="text-muted">谢菲尔德哈勒姆大学</span>
+                                            </p>
+                                            <p>
+                                                <span>成绩：</span>
+                                                <span class="text-muted"> 二等二学位</span>
+                                            </p>
+                                            <p>
+                                                <span>最终选择：</span>
+                                                <span class="text-muted"> 赫瑞瓦特大学</span>
+                                            </p>
+                                        </div>
+                                        <div style="width: 100%; height: 1px; background-color:darkgray; margin-top: 10px;"></div>
+                                        <div class="right-down">
+                                            <p class="down-p-title">
+                                                情侣怀揣一个梦想，一起求学
+                                            </p>
+                                            <p class="down-p-content">
+                                                由于本科成绩并不是很理想，开始在犹豫是否还要留在英国读书，同在英国读书的男朋友先咨询留学申请，在咨询老师的指导下，确定了在英国读硕士的决心。开始的不知如何选择学校，在顾问老师的指导下，一步一步走近大学的殿堂。
+                                            </p>
+                                            <p class="down-p-title">
+                                                Argue成功
+                                            </p>
+                                            <p class="down-p-content">
+                                                最想去霍伦瓦特大学，当初在考试刚结束是就忐忑地和顾问老师说：“老师，怎么办，我感觉考不到学校的条件要求。”我们要做的是，冒风险的同时也要给学生一个合理地准备，保证学生去英国读书，立即加申请了另外一所大学。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 模态框主体结束 -->
+                        </div>
+                    </div>
+                </div>
+                <li class="student2">
+                    <a href="javascript:void(0);">
+                        <div class="suc-img-bg"></div>
+                        <div class="img img2">
+                        </div>
+                        <div class="suc-font-w">
+                            <div class="suc-name">张同学</div>
+                            <div class="suc-uni">伦敦大学国王学院</div>
+                            <div class="suc-uni-font">“特别要感谢myOffer的顾问导师和文案导师的帮忙！”
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="student3">
+                    <a href="javascript:void(0);">
+                        <div class="suc-img-bg"></div>
+                        <div class="img img3">
+                        </div>
+                        <div class="suc-font-w">
+                            <div class="suc-name">杨恒</div>
+                            <div class="suc-uni">伦敦政治经济学院</div>
+                            <div class="suc-uni-font">“myOffer太赞了，感谢heidi，认真负责又专业！！”
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="student4">
+                    <a href="javascript:void(0);">
+                        <div class="suc-img-bg"></div>
+                        <div class="img img4">
+                        </div>
+                        <div class="suc-font-w">
+                            <div class="suc-name">杨雨萌</div>
+                            <div class="suc-uni">赫瑞瓦特大学</div>
+                            <div class="suc-uni-font">“入读心仪的院校啦！感谢myOffer！”
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="student5">
+                    <a href="javascript:void(0);">
+                        <div class="suc-img-bg"></div>
+                        <div class="img img5">
+                        </div>
+                        <div class="suc-font-w">
+                            <div class="suc-name">胡振宇</div>
+                            <div class="suc-uni">曼彻斯特大学</div>
+                            <div class="suc-uni-font">“谢谢myOffer能让我跟我女朋友一起去英国深造”
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 底部轮播图 -->
+<div class=" container-fluid carousel-1">
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="pull-left"><a href="#">合作单位</a></li>
+        <li role="presentation" class="pull-right"><a href="#">海外客服</a></li>
+    </ul>
+    <div id="underline" style="display: flex;">
+        <div style="height: 2px; width: 12%; background-color: gray; margin-bottom: 10px;"></div>
+        <div style="height: 2px; width: 76%; background-color: gray; margin-bottom: 10px;"></div>
+        <div style="height: 2px; width: 12%; background-color: gray; margin-bottom: 10px;"></div>
+    </div>
+
+    <!-- Swiper1 -->
+    <div id="swiper-1" class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt=""></div>
+            <div class="swiper-slide">
+                <img src="./img/王也1.png" width="250px" height="250px" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+        <div class="swiper-button-next"></div>
+        <!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+    </div>
+
+    <!-- Swiper2 -->
+    <div id="swiper-2" class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt=""></div>
+            <div class="swiper-slide">
+                <img src="./image/company-1.jpg" width="250px" height="250px" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+        <div class="swiper-button-next"></div>
+        <!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+    </div>
+</div>
+
+<!-- 页脚 -->
+<footer class="foot-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./image/company-1.jpg" height="100px" width="150px" alt="">
+            </div>
+            <div class="col-md-4 code">
+                <img src="./image/company-1.jpg" width="100px" alt="扫码">
+                <div class="contact">
+                    <p>公众号:111111</p>
+                    <p>微信:<span style="color: red;">1111111</span></p>
+                    <p>QQ群:<span style="color: red;">4566545</span></p>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <p>特别鸣谢Xx科技有限公司</p>
+                <p>地址: 杭州西湖区</p>
+                <p>lumin@gmail.com</p>
+            </div>
+            <div class="col-md-2 text-left">
+                <p>2019 版权所有</p>
+                <p>备案号: 浙ICP4545号</p>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="./js/easySlider.js"></script>
+<script src="./js/html5shiv.min.js"></script>
+<script src="./js/jquery-min-1.7.js"></script>
+<script src="./js/jquery.fullPage.min.js"></script>
+<script src="./js/lib.v1.min.js"></script>
+<script src="./js/lightbox.min.js"></script>
+<script src="./js/org.js"></script>
+<script src="./js/respond.min.js"></script>
+<!-- <script src="./js/jquery-1.11.2.min.js"></script> -->
+<script src="./js/swiper.min.js"></script>
+<script>
+    var swiper1 = new Swiper('#swiper-1', {
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+
+        slidesPerView: 5,
+        spaceBetween: 0,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    var swiper2 = new Swiper('#swiper-2', {
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        slidesPerView: 5,
+        spaceBetween: 0,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    $("#swiper-2").css("display", "none");
+    $(".carousel-1 ul .pull-left").mouseover(function () {
+        $("#underline div:first-child").css("background-color", "red");
+        $("#underline div:last-child").css("background-color", "gray");
+        $("#swiper-2").css("display", "none");
+        $("#swiper-1").css("display", "block");
+        var swiper1 = new Swiper('#swiper-1', {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+
+            slidesPerView: 5,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    });
+    $(".carousel-1 ul .pull-left").mouseout(function () {
+        // $("#underline div:first-child").css("background-color", "gray");
+    });
+
+    $(".carousel-1 ul .pull-right").mouseover(function () {
+        $("#underline div:last-child").css("background-color", "red");
+        $("#underline div:first-child").css("background-color", "gray");
+        $("#swiper-1").css("display", "none");
+        $("#swiper-2").css("display", "block");
+        var swiper2 = new Swiper('#swiper-2', {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 5,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    });
+    $(".carousel-1 ul .pull-right").mouseout(function () {
+        // $("#underline div:last-child").css("background-color", "gray");
+    });
+</script>
+</body>
+
+</html>

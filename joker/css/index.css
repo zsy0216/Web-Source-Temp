@@ -1,0 +1,196 @@
+.container-1{
+    /* box-shadow: 0 0 5px gray;    */
+
+}
+.container-1 .col-md-change {
+    padding-right: 2px;
+}
+.container-1 .col-md-change-1 {
+    margin-left: 0.9%;
+    padding-right: 2px;
+}
+.container-1 .col-md-3{
+    width: 28%
+}
+ .container-1 .col-md-3, .container-1 .col-md-5 {
+    box-shadow: 0 0 5px gray;   
+    /* border: 1px solid #3c3f41; */
+    height: 520px;
+}
+
+.company-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 520px;
+    text-align: center;
+    margin: 0 auto;
+    /* width: 100%; */
+}
+.company-profile .profile-1{
+    height: 15%;
+    width: 90%;
+    padding-top:20px;
+}
+.company-profile .profile-2{
+    /* background-color: aquamarine; */
+    height: 15%;
+    padding: 5px;
+    line-height: 60px;
+}
+.company-profile .profile-3{
+    /* background-color: bisque; */
+    height: 15%;
+    line-height: 60px;
+    padding: 5px;
+}
+.company-profile .profile-4{
+    /* background-color: coral; */
+    height: 15%;
+    line-height: 60px;
+    padding: 5px;
+}
+.company-profile .profile-5{
+    /* background-color: darkcyan; */
+    height: 15%;
+    line-height: 60px;
+    padding: 5px;
+}
+
+
+.company-search {
+    width: 90%;
+    /* text-align: center; */
+    margin: 0px auto;
+    
+}
+
+.company-search .c-s-header{
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.company-search .c-s-type, .company-search .c-s-online{
+    display: flex;
+	justify-content: space-between;
+	width: 100%;
+    padding-top: 5px;
+}
+
+.company-search .c-s-title-text {
+    width: 100%;
+    border: 1px solid #A7A2A2; 
+    padding: 1px;    
+}
+
+
+
+/* carousel 轮播图 begin */
+.carousel-1 ul .pull-left{
+    margin-left: 25px;
+}
+.carousel-1 ul .pull-right{
+    margin-right: 25px;
+}
+.carousel-1 ul li a{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;  
+}
+.carousel-1 ul li a:hover{
+    color: #ED2E7C;
+    background-color: #fff;
+    border-color: #fff    
+}
+.carousel-1 ul div{
+    background-color: red;
+    height: 2px;
+    /* width: 0; */
+    /* position: absolute; */
+    /* left: 30px; */
+    /* bottom: -8px; */
+}
+
+
+
+/*新增内容---------------------------------------------------*/
+#span-img{
+    background: url(../../img/timg.jpg) center center no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.c-s-title-text{
+    position: relative;
+}
+#span-img-mouseover{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: -30px;
+    top: -20px;
+    display: none;
+    color: red;
+    box-shadow: 0 0 3px #3c3f41;
+    background-color: #559677;
+    z-index: 3;
+}
+#guo-qi-content,#si-qi-content{
+    display: none;
+    /*z-index: 3;*/
+}
+.input-group label{
+    display: block;
+    width: 70px;
+}
+.company-content input{
+    line-height: 20px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#btn-serch{
+    width: 120px;
+    background-color: #b40896;
+    margin-left: 30%;
+    margin-top: 10px;
+    /* margin: 10px auto; */
+
+}
+.profile-2,.profile-3,.profile-4,.profile-5{
+    background: url("../../img/王也1.png")center center no-repeat;
+    background-size: 95%;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    height:20%;
+}
+.profile-2:hover ,.profile-3:hover,.profile-4:hover,.profile-5:hover{
+    transform: scale(1.05);
+}
+
+
+/* 优化 */
+.container-fluid {
+    padding: 0 0 0 2px;
+}
+.bg1 .lxbox {
+    padding-left: 170px;
+}
+.carousel-1 {
+    margin: 0 12px;
+}
+
+.carousel-1 .swiper-container{
+    margin-left: 8px;
+    /* margin-right: 20px; */
+}
+.swiper-container .swiper-slide {
+    /* width: 266.2px; */
+}
+.swiper-container .swiper-button-next {
+    right: 22px;
+}

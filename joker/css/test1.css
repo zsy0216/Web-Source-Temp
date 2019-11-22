@@ -1,0 +1,239 @@
+.index-school{
+    display: flex;
+    height: 100%;
+}
+.index-school .school-lists {
+    box-sizing: border-box;
+    height: 100%;
+    /* margin: 0; */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.index-school .school-lists ul {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 520px;
+    width: 100%;
+}
+li, ul {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.index-school .school-lists ul li {
+    box-sizing: border-box;
+    float: left;
+    height: 130px;
+    width: 100%;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+    -moz-transition-property: all;
+    -moz-transition-duration: .6s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0ms;
+    -o-transition-property: all;
+    -o-transition-duration: .6s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0ms;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0ms;
+    -ms-transition-property: all;
+    -ms-transition-duration: .6s;
+    -ms-transition-timing-function: ease;
+    -ms-transition-delay: 0;
+}
+.index-school .school-lists ul li a {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 100%;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+    -moz-transition-property: all;
+    -moz-transition-duration: .6s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0ms;
+    -o-transition-property: all;
+    -o-transition-duration: .6s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0ms;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0ms;
+    -ms-transition-property: all;
+    -ms-transition-duration: .6s;
+    -ms-transition-timing-function: ease;
+    -ms-transition-delay: 0;
+}
+a, a:focus, a:hover {
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+}
+.index-school .school-lists ul li a .sch-img-bg {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+    -moz-transition-property: all;
+    -moz-transition-duration: .6s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0ms;
+    -o-transition-property: all;
+    -o-transition-duration: .6s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0ms;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0ms;
+    -ms-transition-property: all;
+    -ms-transition-duration: .6s;
+    -ms-transition-timing-function: ease;
+    -ms-transition-delay: 0;
+}
+.index-school .school-lists ul li a .sch-img {
+    box-sizing: border-box;
+    z-index: 1;
+    transition-property: all;
+    /* -moz-transition-property: all;
+    -moz-transition-duration: .6s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0ms;
+    -o-transition-property: all;
+    -o-transition-duration: .6s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0ms;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0ms;
+    -ms-transition-property: all;
+    -ms-transition-duration: .6s;
+    -ms-transition-timing-function: ease;
+    -ms-transition-delay: 0; */
+}
+.index-school .school-lists ul li a .sch-img, .index-school .school-lists ul li a .sch-font-w {
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+    position: absolute;
+}
+.index-school .school-lists ul li .sch-img1 {
+    background: url(../../img/王也1.png) center center no-repeat;
+}
+.index-school .school-lists ul li .sch-img2 {
+    background: url(../../img/王也1.png) center center no-repeat;
+}
+.index-school .school-lists ul li .sch-img3 {
+    background: url(../../img/王也1.png) center center no-repeat;
+}
+
+.index-school .school-lists ul li .sch-img {
+    height: 100%;
+    width: 100%;
+}
+.index-school .school-lists ul li a .sch-font-w {
+    z-index: 3;
+    color: #fff;
+    width: 50%;
+    height: 90px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    top: 75%;
+    text-align: center;
+    transition-property: all;
+    /* -moz-transition-property: all;
+    -moz-transition-duration: .6s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0ms;
+    -o-transition-property: all;
+    -o-transition-duration: .6s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0ms;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0ms;
+    -ms-transition-property: all;
+    -ms-transition-duration: .6s;
+    -ms-transition-timing-function: ease;
+    -ms-transition-delay: 0; */
+}
+.index-school .school-lists ul li a .sch-img, .index-school .school-lists ul li a .sch-font-w {
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+    position: absolute;
+}
+.index-school .school-lists ul li.active1 a .sch-img-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+}
+/*.index-school .sch-lists ul li a .sch-font-w .sch-uni-font {*/
+    /*font-size: 16px;*/
+    /*opacity: 0;*/
+    /*margin-top: 16px;*/
+    /*transition-property: all;*/
+    /*transition-duration: .6s;*/
+    /*transition-timing-function: ease;*/
+    /*transition-delay: 0ms;*/
+    /*-moz-transition-property: all;*/
+    /*-moz-transition-duration: .6s;*/
+    /*-moz-transition-timing-function: ease;*/
+    /*-moz-transition-delay: 0ms;*/
+    /*-o-transition-property: all;*/
+    /*-o-transition-duration: .6s;*/
+    /*-o-transition-timing-function: ease;*/
+    /*-o-transition-delay: 0ms;*/
+    /*-webkit-transition-property: all;*/
+    /*-webkit-transition-duration: .6s;*/
+    /*-webkit-transition-timing-function: ease;*/
+    /*-webkit-transition-delay: 0ms;*/
+    /*-ms-transition-property: all;*/
+    /*-ms-transition-duration: .6s;*/
+    /*-ms-transition-timing-function: ease;*/
+    /*-ms-transition-delay: 0;*/
+/*}*/
+.index-school .school-lists ul li.active1, .index-school .school-lists ul li.active1 a {
+    height: 260px;
+}
+.index-school .school-lists ul li.active1 a .sch-img {
+    position: absolute;
+    z-index: 1;
+    height: 260px;
+}
+.index-school .school-lists ul li.active1 a .sch-font-w {
+    width: 50%;
+    height: 90px;
+}
+/*.index-school .sch-lists ul li.active1 a .suc-font-w .suc-uni-font {*/
+    /*display: block;*/
+    /*opacity: 1;*/
+/*}*/
+.sch-img {
+    display: flex;
+    width: 100%;
+}
+
