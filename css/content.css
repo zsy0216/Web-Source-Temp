@@ -1,0 +1,271 @@
+.luntan {
+    margin: 5px auto;
+    /*position: relative;*/
+    /*height: 100%;*/
+    /*display: none;*/
+}
+
+.luntan .lun-tan-button, .BBS-border {
+    float: left;
+    margin-bottom: 200px;
+}
+
+.luntan .lun-tan-button {
+    margin-top: -4%;
+    margin-left: -8%;
+}
+
+.lun-tan-button button {
+    background-color: white; /* Green background */
+    border: 1px solid #e5e1dd; /* Green border */
+    color: black; /* White text */
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 20px;
+    outline: 0;
+    width: 100px;
+    cursor: pointer; /* Pointer/hand icon */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.lun-tan-button button:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .15), 2px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #05cbf9;
+}
+
+#BBS-border-2, #BBS-border-3 {
+    display: none;
+}
+
+.BBS-border {
+    /*height: 600px;*/
+    /*margin-left: 140px;*/
+    width: 40%;
+    border: 2px solid #8e8e8e;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: -30px;
+}
+
+.BBS-border::-webkit-scrollbar {
+    display: none;
+}
+.BBS-border .BBS:first-child{
+    border-top: none;
+}
+
+.BBS-border .BBS {
+    /*border-left: 1px solid #8e8e8e;*/
+    /*border-right: 1px solid #8e8e8e;*/
+    border-top: 1px solid #8e8e8e;
+    /*border-bottom: 1px solid #8e8e8e;*/
+    width: 98%;
+    /*height: 350px;*/
+    margin: 10px auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.BBS-border .BBS:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    transition-duration: 1ms;
+}
+
+.BBS-border .BBS::-webkit-scrollbar {
+    display: none;
+}
+
+.BBS-border .BBS .head-picture, .room-BBS-content {
+    height: 100%;
+    float: left;
+}
+
+.BBS-border .BBS .head-picture {
+    width: 20%;
+    height: 100%;
+    /*position: relative;*/
+}
+
+.BBS-border .BBS .room-BBS-content {
+    width: 75%;
+    margin-right: 5%;
+}
+
+.BBS-border .BBS .head-picture img {
+    /*position: absolute;*/
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    top: 5px;
+    right: 28%;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-name {
+    width: 100%;
+    /*height: 10%;*/
+    height: 30px;
+    position: relative;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-name .name1, .name2 {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    font-size: 14px;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-name .name1 {
+    left: 0;
+    color: #8e8e8e;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-name .name2 {
+    right: 0;
+    color: aquamarine;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-lable {
+    margin-top: 5px;
+    width: 100%;
+    /*height: 10%;*/
+    /*height: 30px;*/
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-lable span {
+    font-size: 14px;
+    /*height: 80%;*/
+    margin-right: 5px;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-lable .span1 {
+    border: 1px solid #8ffac6;
+    color: #8ffac6;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-lable .span2 {
+    border: 1px solid #e7fa5d;
+    color: #e7fa5d;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-lable .span3 {
+    border: 1px solid #fa7da3;
+    color: #fa7da3;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-details {
+    width: 100%;
+    /*height: 40%;*/
+    /*height: 110px;*/
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-details a {
+    color: #fa7da3;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-details .a2 {
+    display: none;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-details .p1 {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-details .p2 {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-picture {
+    /*height: 89px;*/
+    width: 100%;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-picture img {
+    height: 100%;
+    width: 32%;
+    /*margin-right: 3px;*/
+    margin-top: 10px;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-footer {
+    width: 100%;
+    /*height: 20px;*/
+    margin-top: 5px;
+    color: #8e8e8e;
+    position: relative;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-footer .glyphicon-align-left {
+    float: right;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-footer .dian-zan1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 17px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 3px;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-footer .dian-zan1 span {
+    margin-right: 2px;
+    font-size: 12px;
+}
+
+.BBS-border .BBS .room-BBS-content .ping-lun-content {
+    display: none;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    /*height: 100px;*/
+    position: relative;
+}
+
+.BBS-border .BBS .room-BBS-content .ping-lun-content a {
+    position: absolute;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    width: 15%;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: #277cff;
+    text-decoration: none;
+}
+
+.BBS-border .BBS .room-BBS-content .room-content-footer .dian-zan1 span {
+    cursor: pointer;
+}
+
+.tou-tiao-border {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    border: 1px dashed black;
+}
+
+.tou-tiao-border #tou-tiao-swiper .p-name {
+    color: #fa7da3;
+}
+

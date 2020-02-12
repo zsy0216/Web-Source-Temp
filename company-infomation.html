@@ -15,6 +15,8 @@
 
     <link rel="stylesheet" href="joker/css/swiper.css">
 
+    <link rel="stylesheet" href="css/content.css">
+
     <script src="joker/jquery/jquery.min.js"></script>
     <script src="joker/js/joker.js"></script>
     <script src="public/js/company-information.js"></script>
@@ -24,6 +26,8 @@
     <link rel="stylesheet" href="joker/css/select.css">
     <script src="joker/jquery/jquery.min.js"></script>
     <script src="joker/js/select.js"></script>
+    <script src="js/content.js"></script>
+    <script src="./js/swiper.min.js"></script>
 </head>
 <body>
 
@@ -207,7 +211,8 @@
                 <div class="body-left">
                     <!-- 1.公司的视频和图片介绍 -->
                     <div class="vedio-play">
-                        <video muted id="gsfc-video" style="display: block;" src="video/movie.webm" width="100%" height="100%"
+                        <video muted id="gsfc-video" style="display: block;" src="video/movie.webm" width="100%"
+                               height="100%"
                                controls="controls" autoplay="autoplay">
                         </video>
                         <img id="gsfc-img" style="display: none;" src="img/王也1.png" alt="" width="100%" height="100%">
@@ -813,64 +818,9 @@
         </div>
     </div>
 
-    <!-- 3.名企名友 -->
-    <!--    <div class="mingqimingyou">
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object img-responsive img-thumbnail" src="./img/王也1.png" width="100%"
-                             height="100%" alt="...">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">知名校友</h4>
-                    <button class="btn btn-primary">销售经理</button>
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object img-responsive img-thumbnail" src="./img/王也1.png" width="100%"
-                             height="100%" alt="...">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">GSP</h4>
-                    <button class="btn btn-primary">产品经理</button>
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object img-responsive img-thumbnail" src="./img/王也1.png" width="100%"
-                             height="100%" alt="...">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">wwe</h4>
-                    <button class="btn btn-primary">销售经理</button>
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object img-responsive img-thumbnail" src="./img/王也1.png" width="100%"
-                             height="100%" alt="...">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">GSP</h4>
-                    <button class="btn btn-primary">产品经理</button>
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                </div>
-            </div>
-        </div>-->
 
     <!-- 4.你问我答 -->
-    <div class="mingqimingyou youwenbida">
+    <!-- <div class="mingqimingyou youwenbida">
         <div class="media">
             <div class="media-left">
                 <a href="#">
@@ -910,6 +860,654 @@
                 <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
             </div>
         </div>
+    </div> -->
+
+    <div class="niwenwoda youwenbida">
+        <div class="nav-btn">
+            <button id="liuxuexuzhi" class="btn btn-primary">留学须知</button>
+            <button id="xuexiaoluntan" class="btn btn-default school-lun-tan">学校论坛</button>
+        </div>
+
+
+        <div class="content-1">
+            <div class="c-list">
+                <div class="c-list__content">
+                    <ul class="list--bare">
+                        <li>
+                            <div class="c-item c-news">
+                                <a class="c-item__link" href="#"></a>
+                                <div class="c-item__container">
+                                    <div class="c-item__data">
+                                        <div class="date">22 Nov 2019</div>
+                                    </div>
+                                    <div class="c-item__contentcontainer">
+                                        <img class="c-item__image" sizes="75px" src="./img/王也1.png">
+                                        <div class="c-item__content">
+                                            <div class="title">Geert ten Dam and Karen Maex reappointed to the Executive
+                                                Board
+                                            </div>
+                                            <p>Geert ten Dam and Karen Maex have been reappointed by the Supervisory
+                                                Board
+                                                of the University of Amsterdam (UvA) as, respectively, chairperson of
+                                                the
+                                                Executive Board and Rector Magnificus of the university. This ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="c-item c-news">
+                                <a class="c-item__link" href="#"></a>
+                                <div class="c-item__container">
+                                    <div class="c-item__data">
+                                        <div class="date">22 Nov 2019</div>
+                                    </div>
+                                    <div class="c-item__contentcontainer">
+                                        <img class="c-item__image" sizes="75px" src="./img/王也1.png">
+                                        <div class="c-item__content">
+                                            <div class="title">Geert ten Dam and Karen Maex reappointed to the Executive
+                                                Board
+                                            </div>
+                                            <p>Geert ten Dam and Karen Maex have been reappointed by the Supervisory
+                                                Board
+                                                of the University of Amsterdam (UvA) as, respectively, chairperson of
+                                                the
+                                                Executive Board and Rector Magnificus of the university. This ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="c-item c-news">
+                                <a class="c-item__link" href="#"></a>
+                                <div class="c-item__container">
+                                    <div class="c-item__data">
+                                        <div class="date">22 Nov 2019</div>
+                                    </div>
+                                    <div class="c-item__contentcontainer">
+                                        <img class="c-item__image" sizes="75px" src="./img/王也1.png">
+                                        <div class="c-item__content">
+                                            <div class="title">Geert ten Dam and Karen Maex reappointed to the Executive
+                                                Board
+                                            </div>
+                                            <p>Geert ten Dam and Karen Maex have been reappointed by the Supervisory
+                                                Board
+                                                of the University of Amsterdam (UvA) as, respectively, chairperson of
+                                                the
+                                                Executive Board and Rector Magnificus of the university. This ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="c-item c-news">
+                                <a class="c-item__link" href="#"></a>
+                                <div class="c-item__container">
+                                    <div class="c-item__data">
+                                        <div class="date">22 Nov 2019</div>
+                                    </div>
+                                    <div class="c-item__contentcontainer">
+                                        <img class="c-item__image" sizes="75px" src="./img/王也1.png">
+                                        <div class="c-item__content">
+                                            <div class="title">Geert ten Dam and Karen Maex reappointed to the Executive
+                                                Board
+                                            </div>
+                                            <p>Geert ten Dam and Karen Maex have been reappointed by the Supervisory
+                                                Board
+                                                of the University of Amsterdam (UvA) as, respectively, chairperson of
+                                                the
+                                                Executive Board and Rector Magnificus of the university. This ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="c-sidebar">
+                <div class="block-page-list" style="">
+                    <div class="news">
+                        <h2 class="label-above"><i style="margin-right: 10px;"
+                                                   class="glyphicon glyphicon-credit-card"></i>News
+                        </h2>
+                        <ul>
+                            <li>
+                                <i class="glyphicon glyphicon-arrow-right"></i>
+                                <div class="publication-date">
+                            <span class="date-display-single">
+                            22 November 2019
+                            </span>
+                                </div>
+                                <div class="finalist-home-news-event-title"><h3><a
+                                        href="https://www.maastrichtuniversity.nl/news/7-weeks-asia-bachelor%E2%80%99s-students"
+                                        icon="link-without-icon">7 weeks in Asia for bachelor’s students</a></h3>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="glyphicon glyphicon-arrow-right"></i>
+                                <div class="publication-date"><span class="date-display-single">21 November 2019</span>
+                                </div>
+                                <div class="finalist-home-news-event-title"><h3><a
+                                        href="https://www.maastrichtuniversity.nl/news/vitality-initiatives-and-um-staff"
+                                        icon="link-without-icon"> Vitality initiatives from and for UM staff</a></h3>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="glyphicon glyphicon-arrow-right"></i>
+                                <div class="publication-date"><span class="date-display-single">21 November 2019</span>
+                                </div>
+                                <div class="finalist-home-news-event-title"><h3><a
+                                        href="https://www.maastrichtuniversity.nl/news/yufe-legwork-and-lofty-ambitions"
+                                        icon="link-without-icon">YUFE - legwork and lofty ambitions</a></h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="events">
+                        <h2 class="label-above">
+                            <i style="margin-right: 10px;" class="glyphicon glyphicon-calendar">
+                            </i>Events
+                        </h2>
+                        <ul>
+                            <li>
+                                <i class="glyphicon glyphicon-arrow-right"></i>
+                                <div class="wrapper-event">
+                                    <div class="date">
+                                        <div class="date">
+                                    <span class="agendavakje">
+                                         <span class="agendadate">22</span>
+                                         <span class="agendamonth">Nov</span>
+                                         <span class="agendayear">2019</span>
+                                     </span>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        <a href="https://www.maastrichtuniversity.nl/events/ethnographics-and-statistics-global-traveling-practices-multiple-borders-infectious-diseases"
+                                           icon="link-without-icon">Ethnographics and statistics of global traveling
+                                            practices,
+                                            multiple borders, infectious diseases</a></h3>
+                                    <div class="introduction"><span>Symposium</span></div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="glyphicon glyphicon-arrow-right"></i>
+                                <div class="wrapper-event">
+                                    <div class="date">
+                                        <div class="date">
+    <span class="agendavakje">
+          <span class="agendadate">2</span>
+              <span class="agendamonth">Dec</span>
+              </span>
+                                        </div>
+                                    </div>
+                                    <h3><a href="https://www.maastrichtuniversity.nl/events/fireplace-talks-big-data"
+                                           icon="link-without-icon">Fireplace Talks on Big Data</a></h3>
+                                    <div class="introduction">
+                                        <span>Alumni meeting with Michel Dumontier and Sally Wyatt</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-2">
+            <div class="luntan">
+                <div class="c-sidebar sidebar-2">
+                    <div id="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p>申请圈头条</p>
+                                <span>[11-25]黄文其发布了房屋出租</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <p>便民圈头条</p>
+                                <span>[11-25]李三发布了便民信息</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <p>房屋圈头条</p>
+                                <span>[11-25]王五发布了便民信息</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <p>申请圈头条</p>
+                                <span>[11-25]黄文其发布了房屋出租</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <p>便民圈头条</p>
+                                <span>[11-25]李三发布了便民信息</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <p>房屋圈头条</p>
+                                <span>[11-25]王五发布了便民信息</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    var swiperPublish = new Swiper('#swiper-container', {
+                        autoplay: {
+                            delay: 5000,
+                            disableOnInteraction: false,
+                        },
+                        slidesPerView: 3,
+                        spaceBetween: 0,
+
+                        direction: 'vertical',
+                        height: 250,
+                    });
+                </script>
+
+                <div class="publish-btn-relative" style="position: relative; height: 50px;">
+                    <div class="btn-publish" style="position: absolute; height: 100%; bottom:-780%; right: 15%;">
+                        <button class="btn btn-primary btn-lg">发布帖子</button>
+                    </div>
+                </div>
+
+
+                <div class="lun-tan-button">
+                    <button class="shen-qing ">申请交流</button>
+                    <button class="bian-min ">便民信息</button>
+                    <button class="fang-wu ">房屋交流</button>
+                </div>
+                <div class="BBS-border" id="BBS-border-1">
+                    <div class="BBS">
+                        <div class="head-picture">
+                            <img src="img/王也1.png" alt="">
+                        </div>
+                        <div class="room-BBS-content">
+                            <div class="room-content-name">
+                                <div class="name1">Cheer</div>
+                                <div class="name2">申请交流</div>
+                            </div>
+                            <div class="room-content-lable">
+                                <span class="span1">靠近超市</span>
+                                <span class="span2">市中心</span>
+                                <span class="span3">带电梯</span>
+                            </div>
+                            <div class="room-content-details">
+                                <p class="p1">.BBS-border .BBS .room-BBS-content
+                                    .room-content-details.BBS-border .
+                                    BBS .room-BBS-content .room-cont
+                                    ent-details.BBS-border .BBS .ro
+                                    om-BBS-content .room-content-de
+                                    tails.BBS-border .BBS .room-BBS
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    BBS-border .BBS .room-BBS-cont
+                                    om-BBS-content .room-content-de
+                                    tails.BBS-border .BBS .room-BBS
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    BBS-border .BBS .room-BBS-cont
+                                    ent .room-content-details</p>
+                                <a class="a1">全文</a>
+                                <a class="a2">收起</a>
+                            </div>
+                            <div class="room-content-picture">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                            </div>
+                            <div class="room-content-footer">
+                                <span class="span1">139次浏览，0分享。5小时前发布</span>
+                                <span class="dian-zan1">
+                <span class="dian-zan">点赞</span>
+                <span class="ping-lun">评论</span>
+            </span>
+                                <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                            </div>
+                            <div class="ping-lun-content">
+                                <textarea style="width: 85%;height: 100px"></textarea>
+                                <a class="fa-biao">发表</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="BBS">
+                        <div class="head-picture">
+                            <img src="img/王也1.png" alt="">
+                        </div>
+                        <div class="room-BBS-content">
+                            <div class="room-content-name">
+                                <div class="name1">Cheer</div>
+                                <div class="name2">申请交流</div>
+                            </div>
+                            <div class="room-content-lable">
+                                <!--<span class="span1">靠近超市</span>-->
+                                <!--<span class="span2">市中心</span>-->
+                                <!--<span class="span3">带电梯</span>-->
+                            </div>
+                            <div class="room-content-details">
+                                <p class="p1">Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影
+                                    Look at the sun and see the clouds turn to faces in the sky
+                                    远望艳阳 仰望那苍穹的云卷云舒 变幻出人脸模样
+                                    We've been awake all night, shattered dreams all around
+                                    我们彻夜未眠 四周飘荡着梦的碎片
+                                    Close your sad, sad eyes we will be safe and sound
+                                    合上你布满忧愁的双眼 我们会安然无恙
+                                    Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影
+                                    Look at the sun and see the clouds turn to faces in the sky
+                                    远望艳阳 仰望那苍穹的云卷云舒 变幻出人脸模样
+                                    Daydreaming lightly through the rainAll's forgiven on a summer train
+                                    白日梦轻轻地穿透雨滴 所有的一切都能被谅解 在这夏日的列车上
+                                    Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影</p>
+                                <a class="a1">全文</a>
+                                <a class="a2">收起</a>
+                            </div>
+                            <div class="room-content-picture">
+                                <!--                                <img src="img/王也1.png" alt="">-->
+                                <!--                                <img src="img/王也1.png" alt="">-->
+                                <!--                                <img src="img/王也1.png" alt="">-->
+                            </div>
+                            <div class="room-content-footer">
+                                <span class="span1">139次浏览，0分享。5小时前发布</span>
+                                <span class="dian-zan1">
+                <span class="dian-zan">点赞</span>
+                <span class="ping-lun">评论</span>
+                </span>
+                                <span class="glyphicon glyphicon-align-left" aria-hidden="true">
+                </span>
+                            </div>
+                            <div class="ping-lun-content">
+                                <textarea style="width: 85%;height: 100px"></textarea>
+                                <a class="fa-biao">发表</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BBS-border" id="BBS-border-2">
+                    <div class="BBS">
+                        <div class="head-picture">
+                            <img src="img/王也1.png" alt="">
+                        </div>
+                        <div class="room-BBS-content">
+                            <div class="room-content-name">
+                                <div class="name1">Cheer</div>
+                                <div class="name2">便民信息</div>
+                            </div>
+                            <div class="room-content-lable">
+                                <span class="span1">靠近超市</span>
+                                <span class="span2">市中心</span>
+                                <span class="span3">带电梯</span>
+                            </div>
+                            <div class="room-content-details">
+                                <p class="p1">.BBS-border .BBS .room-BBS-content
+                                    .room-content-details.BBS-border .
+                                    BBS .room-BBS-content .room-cont
+                                    ent-details.BBS-border .BBS .ro
+                                    om-BBS-content .room-content-de
+                                    tails.BBS-border .BBS .room-BBS
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    BBS-border .BBS .room-BBS-cont
+                                    om-BBS-content .room-content-de
+                                    tails.BBS-border .BBS .room-BBS
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    BBS-border .BBS .room-BBS-cont
+                                    ent .room-content-details</p>
+                                <a class="a1">全文</a>
+                                <a class="a2">收起</a>
+                            </div>
+                            <div class="room-content-picture">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                            </div>
+                            <div class="room-content-footer">
+                                <span class="span1">139次浏览，0分享。5小时前发布</span>
+                                <span class="dian-zan1">
+                <span class="dian-zan">点赞</span>
+                <span class="ping-lun">评论</span>
+            </span>
+                                <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                            </div>
+                            <div class="ping-lun-content">
+                                <textarea style="width: 85%;height: 100px"></textarea>
+                                <a class="fa-biao">发表</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="BBS">
+                        <div class="head-picture">
+                            <img src="img/王也1.png" alt="">
+                        </div>
+                        <div class="room-BBS-content">
+                            <div class="room-content-name">
+                                <div class="name1">Cheer</div>
+                                <div class="name2">便民信息</div>
+                            </div>
+                            <div class="room-content-lable">
+                                <!--<span class="span1">靠近超市</span>-->
+                                <!--<span class="span2">市中心</span>-->
+                                <!--<span class="span3">带电梯</span>-->
+                            </div>
+                            <div class="room-content-details">
+                                <p class="p1">Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影
+                                    Look at the sun and see the clouds turn to faces in the sky
+                                    远望艳阳 仰望那苍穹的云卷云舒 变幻出人脸模样
+                                    We've been awake all night, shattered dreams all around
+                                    我们彻夜未眠 四周飘荡着梦的碎片
+                                    Close your sad, sad eyes we will be safe and sound
+                                    合上你布满忧愁的双眼 我们会安然无恙
+                                    Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影
+                                    Look at the sun and see the clouds turn to faces in the sky
+                                    远望艳阳 仰望那苍穹的云卷云舒 变幻出人脸模样
+                                    Daydreaming lightly through the rainAll's forgiven on a summer train
+                                    白日梦轻轻地穿透雨滴 所有的一切都能被谅解 在这夏日的列车上
+                                    Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影</p>
+                                <a class="a1">全文</a>
+                                <a class="a2">收起</a>
+                            </div>
+                            <div class="room-content-picture">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                            </div>
+                            <div class="room-content-footer">
+                                <span class="span1">139次浏览，0分享。5小时前发布</span>
+                                <span class="dian-zan1">
+                <span class="dian-zan">点赞</span>
+                <span class="ping-lun">评论</span>
+                </span>
+                                <span class="glyphicon glyphicon-align-left" aria-hidden="true">
+                </span>
+                            </div>
+                            <div class="ping-lun-content">
+                                <textarea style="width: 85%;height: 100px"></textarea>
+                                <a class="fa-biao">发表</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BBS-border" id="BBS-border-3">
+                    <div class="BBS">
+                        <div class="head-picture">
+                            <img src="img/王也1.png" alt="">
+                        </div>
+                        <div class="room-BBS-content">
+                            <div class="room-content-name">
+                                <div class="name1">Cheer</div>
+                                <div class="name2">房屋交流</div>
+                            </div>
+                            <div class="room-content-lable">
+                                <span class="span1">靠近超市</span>
+                                <span class="span2">市中心</span>
+                                <span class="span3">带电梯</span>
+                            </div>
+                            <div class="room-content-details">
+                                <p class="p1">.BBS-border .BBS .room-BBS-content
+                                    .room-content-details.BBS-border .
+                                    BBS .room-BBS-content .room-cont
+                                    ent-details.BBS-border .BBS .ro
+                                    om-BBS-content .room-content-de
+                                    tails.BBS-border .BBS .room-BBS
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    BBS-border .BBS .room-BBS-cont
+                                    om-BBS-content .room-content-de
+                                    tails.BBS-border .BBS .room-BBS
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    -content .room-content-details.
+                                    BBS-border .BBS .room-BBS-cont
+                                    ent .room-content-details</p>
+                                <a class="a1">全文</a>
+                                <a class="a2">收起</a>
+                            </div>
+                            <div class="room-content-picture">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                            </div>
+                            <div class="room-content-footer">
+                                <span class="span1">139次浏览，0分享。5小时前发布</span>
+                                <span class="dian-zan1">
+                <span class="dian-zan">点赞</span>
+                <span class="ping-lun">评论</span>
+            </span>
+                                <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                            </div>
+                            <div class="ping-lun-content">
+                                <textarea style="width: 85%;height: 100px"></textarea>
+                                <a class="fa-biao">发表</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="BBS">
+                        <div class="head-picture">
+                            <img src="img/王也1.png" alt="">
+                        </div>
+                        <div class="room-BBS-content">
+                            <div class="room-content-name">
+                                <div class="name1">Cheer</div>
+                                <div class="name2">房屋交流</div>
+                            </div>
+                            <div class="room-content-lable">
+                                <!--<span class="span1">靠近超市</span>-->
+                                <!--<span class="span2">市中心</span>-->
+                                <!--<span class="span3">带电梯</span>-->
+                            </div>
+                            <div class="room-content-details">
+                                <p class="p1">Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影
+                                    Look at the sun and see the clouds turn to faces in the sky
+                                    远望艳阳 仰望那苍穹的云卷云舒 变幻出人脸模样
+                                    We've been awake all night, shattered dreams all around
+                                    我们彻夜未眠 四周飘荡着梦的碎片
+                                    Close your sad, sad eyes we will be safe and sound
+                                    合上你布满忧愁的双眼 我们会安然无恙
+                                    Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影
+                                    Look at the sun and see the clouds turn to faces in the sky
+                                    远望艳阳 仰望那苍穹的云卷云舒 变幻出人脸模样
+                                    Daydreaming lightly through the rainAll's forgiven on a summer train
+                                    白日梦轻轻地穿透雨滴 所有的一切都能被谅解 在这夏日的列车上
+                                    Come with me for a little ride, see the shadows passing by
+                                    跟我一起坐火车离开吧 看着车窗外呼啸而过的掠影</p>
+                                <a class="a1">全文</a>
+                                <a class="a2">收起</a>
+                            </div>
+                            <div class="room-content-picture">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                                <img src="img/王也1.png" alt="">
+                            </div>
+                            <div class="room-content-footer">
+                                <span class="span1">139次浏览，0分享。5小时前发布</span>
+                                <span class="dian-zan1">
+                <span class="dian-zan">点赞</span>
+                <span class="ping-lun">评论</span>
+                </span>
+                                <span class="glyphicon glyphicon-align-left" aria-hidden="true">
+                </span>
+                            </div>
+                            <div class="ping-lun-content">
+                                <textarea style="width: 85%;height: 100px"></textarea>
+                                <a class="fa-biao">发表</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-publish">
+                <p class="bg-primary">发布信息</p>
+                <p class="text-danger">免责声明：本平台发布的所有信息，平台只负责发布、展示，与平台本身无关。</p>
+                <p class="ty">请选择发布类型：</p>
+                <div class="row" style="margin: 10px 0;">
+                    <div class="col-md-4">
+                        <select class="form-control" name="" id="slct-1">
+                            <option value="">院校申请</option>
+                            <option value="">院校申请1</option>
+                            <option value="">院校申请2</option>
+                            <option value="">院校申请3</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-control" name="" id="slct-2">
+                            <option value="">便民信息</option>
+                            <option value="">便民信息1</option>
+                            <option value="">便民信息2</option>
+                            <option value="">便民信息3</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-control" name="" id="slct-3">
+                            <option value="">房屋供求</option>
+                            <option value="">房屋供求1</option>
+                            <option value="">房屋供求2</option>
+                            <option value="">房屋供求3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="underline"
+                     style="height: 1px; margin: 0; padding: 0; width: 100%; border: 1px solid #949494;"></div>
+                <form class="form-horizontal" style="margin-top: 10px;" 0>
+                    <div class="form-group">
+                        <label for="input1" class="col-sm-1 control-label" id="label1">主题:</label>
+                        <div class="col-sm-11">
+                            <input type="text" class="form-control" id="input1" placeholder="请输入主题">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <!--                        <label for="input2" class="col-sm-2 control-label">描述:</label>-->
+                        <div class="col-sm-12">
+                            <textarea id="input2" class="form-control" rows="3" placeholder="请输入发布信息的描述"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile" class="col-sm-2 control-label" id="label3">上传图片</label>
+                        <p class="help-block">最多上传6张照片</p>
+                        <div class="col-sm-10">
+                            <input type="file" accept="image/png,image/jpeg" id="exampleInputFile">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">确认发布</button>
+                </form>
+            </div>
+        </div>
+
+
     </div>
 </div>
 
@@ -946,8 +1544,20 @@
 
 <script src="./js/swiper.min.js"></script>
 <script>
-		var video =  document.getElementById("gsfc-video");
-		video.play();
+    // var swiperPublish = new Swiper('#swiper-container', {
+    //     autoplay: {
+    //         delay: 5000,
+    //         disableOnInteraction: false,
+    //     },
+    //     slidesPerView: 3,
+    //     spaceBetween: 0,
+    //
+    //     direction: 'vertical'
+    // });
+
+
+    var video = document.getElementById("gsfc-video");
+    video.play();
     var swiper = new Swiper('#swiper', {
         autoplay: {
             delay: 2000,

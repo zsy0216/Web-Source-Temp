@@ -1,6 +1,20 @@
+
+.niwenwoda .nav-btn{
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+.niwenwoda .nav-btn button{
+    font-size: 18px;
+
+}
+.niwenwoda .content-2 .luntan{
+    display: none;
+}
+
 .info-detail {
     background: url("../../public/img/detail-bg.png") center no-repeat;
-    opacity: 10%;
+    opacity: 90%;
     height: 350px;
     margin-top: -17px;
     padding: 60px;
@@ -543,11 +557,13 @@
     left: 350px;
     top: -2px;
 }
+
 /************************************/
-#swiper-vedio .swiper-wrapper .swiper-slide{
+#swiper-vedio .swiper-wrapper .swiper-slide {
     position: relative;
 }
-#swiper-vedio .swiper-wrapper .swiper-slide .img-info{
+
+#swiper-vedio .swiper-wrapper .swiper-slide .img-info {
     position: absolute;
     margin: 0 auto;
     color: white;
@@ -557,22 +573,25 @@
     left: 0;
     right: 0;
     text-align: center;
-    -webkit-backface-visibility: hidden;/* 隐藏旋转元素的背面*/
+    -webkit-backface-visibility: hidden; /* 隐藏旋转元素的背面*/
     backface-visibility: hidden;
-    background: rgba(0, 0, 0, 0.6);   /*后面这个0.6是指的背景的透明度*/
+    background: rgba(0, 0, 0, 0.6); /*后面这个0.6是指的背景的透明度*/
     opacity: 0;
-    -webkit-transition: all 0.35s ease-in-out;   /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
+    -webkit-transition: all 0.35s ease-in-out; /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
     -moz-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
 }
-#swiper-vedio .swiper-wrapper .swiper-slide:hover .img-info{
+
+#swiper-vedio .swiper-wrapper .swiper-slide:hover .img-info {
     opacity: 1;
 }
+
 /*******/
-#swiper-vedio-2 .swiper-wrapper .swiper-slide{
+#swiper-vedio-2 .swiper-wrapper .swiper-slide {
     position: relative;
 }
-#swiper-vedio-2 .swiper-wrapper .swiper-slide .img-info2{
+
+#swiper-vedio-2 .swiper-wrapper .swiper-slide .img-info2 {
     position: absolute;
     margin: 0 auto;
     color: white;
@@ -582,14 +601,425 @@
     left: 0;
     right: 0;
     text-align: center;
-    -webkit-backface-visibility: hidden;/* 隐藏旋转元素的背面*/
+    -webkit-backface-visibility: hidden; /* 隐藏旋转元素的背面*/
     backface-visibility: hidden;
-    background: rgba(0, 0, 0, 0.6);   /*后面这个0.6是指的背景的透明度*/
+    background: rgba(0, 0, 0, 0.6); /*后面这个0.6是指的背景的透明度*/
     opacity: 0;
-    -webkit-transition: all 0.35s ease-in-out;   /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
+    -webkit-transition: all 0.35s ease-in-out; /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
     -moz-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
 }
-#swiper-vedio-2 .swiper-wrapper .swiper-slide:hover .img-info2{
+
+#swiper-vedio-2 .swiper-wrapper .swiper-slide:hover .img-info2 {
     opacity: 1;
+}
+
+
+/* part-你问我答 */
+.niwenwoda {
+    position: relative;
+}
+
+.c-sidebar {
+    width: 30%;
+    position: absolute;
+    top: 4.5%;
+    right: 10%;
+}
+
+.c-list {
+    height: 783px;
+}
+
+/*.c-list .c-news .c-item__container:hover{*/
+/*    color: red;*/
+/*}*/
+
+.niwenwoda .c-list__content ul.list--bare {
+    margin: 40px 0 0 4%;
+    padding: 0;
+    list-style: none;
+    width: 51%;
+}
+
+.niwenwoda .c-list__content ul.list--bare li {
+    list-style: none;
+}
+.niwenwoda .c-list__content ul.list--bare li:hover{
+    color: #a2002a;
+}
+
+.niwenwoda .c-list__content ul.list--bare li .c-item {
+    position: relative;
+}
+
+.niwenwoda .c-list__content ul.list--bare li .c-item .c-item__link {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.niwenwoda .c-list__content ul.list--bare li .c-item .c-item__container {
+    margin-bottom: .75rem;
+    padding: 1.125rem .75rem;
+    pointer-events: all;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .15), 0 3px 6px rgba(0, 0, 0, .2);
+    transition: all 350ms cubic-bezier(.445, .05, .55, .95);
+}
+
+.niwenwoda a:focus, a:hover {
+    color: #a2002a;
+}
+
+.niwenwoda .c-list__content ul.list--bare li .c-item .c-item__link:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .15), 5px 5px 15px rgba(0, 0, 0, .4);
+    color: #cd3930;
+}
+
+.niwenwoda .c-list__content ul.list--bare li .c-item .c-item__container .c-item__data {
+    flex-shrink: 0;
+    font-size: .875rem;
+    padding-right: .75rem;
+}
+
+.niwenwoda .c-list__content ul.list--bare li .c-item .c-item__container .c-item__contentcontainer {
+    display: flex;
+    flex: 0 1 auto;
+    align-items: flex-start;
+}
+
+.niwenwoda .c-list__content ul.list--bare li .c-item .c-item__container .c-item__contentcontainer .c-item__image {
+    flex-shrink: 0;
+    height: 75px;
+    width: 75px;
+    margin-right: .75rem;
+}
+
+.c-item__image img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+.c-item__content {
+    flex-grow: 1;
+}
+
+.c-item__content .title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: .5rem;
+}
+
+.c-item__content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.c-item__content p {
+    margin-bottom: 2rem;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+
+.block-page-list {
+    margin-right: 0;
+    /*height: 704px;*/
+    margin-bottom: 14px;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #e3e3e3;
+    float: right;
+}
+
+.block-page-list > .news, .block-page-list > .events {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.block-page-list h2 {
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.block-page-list ul, .block-page-list ul li {
+    list-style-type: none;
+}
+
+.block-page-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: inside;
+}
+
+.block-page-list div.news ul li {
+    padding-right: 5px;
+}
+
+.block-page-list ul li {
+    position: relative;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.block-page-list div.news ul li > .publication-date {
+    margin: 0 0 0 28px;
+    color: #03a1da;
+    font-weight: bold;
+}
+
+.block-page-list div.news ul li > .publication-date > span {
+    font-size: 14px;
+    border-bottom: 1px solid #03a1da;
+    transition: border-bottom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.block-page-list div.news ul li .finalist-home-news-event-title {
+    margin-left: 28px;
+}
+
+.block-page-list div.news ul li .finalist-home-news-event-title h3 a {
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #011b3c;
+    border-bottom: 1px solid white;
+    transition: border-bottom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    text-decoration: none;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.block-page-list > .events {
+    margin-top: 15px;
+    position: static;
+}
+
+.block-page-list div.events ul li {
+    padding-right: 5px;
+}
+
+.block-page-list > .events li {
+    position: relative;
+    min-height: 78px;
+}
+
+.block-page-list ul li {
+    position: relative;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.block-page-list div.events ul li .wrapper-event {
+    min-height: 70px;
+    color: #03a1da;
+    font-weight: bold;
+}
+
+.block-page-list div.events ul li .date, .block-page-list div.events ul li .views-field-field-date {
+    color: #011b3c;
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.block-page-wrapper .block-page-list div.events ul li .date .agendavakje {
+    z-index: 1;
+}
+
+.block-page-list div.events ul li .date .agendavakje {
+    background-color: white;
+    width: 60px;
+    box-shadow: none;
+    border-radius: 2px;
+    display: block;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.block-page-list div.events ul li .date .agendadate {
+    background-color: white;
+    height: 32px;
+    padding-top: 2px;
+    border-top: 6px solid #011b3c;
+    font-size: 23px;
+    font-weight: 100;
+    display: block;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.block-page-list div.events ul li .date {
+    color: #011b3c;
+}
+
+.block-page-list div.events ul li .date .agendamonth {
+    background-color: white;
+    padding-bottom: 2px;
+    font-size: 17px;
+    font-weight: 100;
+    display: block;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.block-page-list div.events ul li .date .agendayear {
+    display: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.block-page-list div.events ul li .wrapper-event h3 {
+    margin: 0px 0 0 28px;
+    padding-right: 10px;
+    font-size: 137.5%;
+    line-height: 105%;
+}
+
+.block-page-list div.events ul li .wrapper-event h3 a {
+    line-height: 21px;
+    font-size: 14px;
+    color: #03a1da;
+    font-weight: bold;
+    border-bottom: 1px solid #03a1da;
+    transition: border-bottom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    text-decoration: none;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.block-page-list div.events ul li .wrapper-event .introduction {
+    margin-left: 28px;
+    line-height: 18px;
+    margin-top: 4px;
+}
+
+.introduction {
+    max-width: 684px;
+}
+
+.block-page-list div.events ul li .wrapper-event .introduction span {
+    line-height: 22px;
+    font-size: 16px;
+    color: #011b3c;
+    font-weight: normal;
+    border-bottom: 1px solid white;
+    transition: border-bottom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.block-page-list .news ul li i,
+.block-page-list .events ul li i {
+    color: #000;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    font-size: 15px;
+}
+
+.niwenwoda .c-publish {
+    width: 40%;
+    display: none;
+    margin-left: 5%;
+    margin-top: 65px;
+    border: 2px solid #8e8e8e;
+}
+.niwenwoda .c-publish .text-danger{
+    width: 93%;
+    margin: 0 auto;
+}
+.niwenwoda .c-publish .ty{
+    display: block;
+    -webkit-margin-before: 12px;
+    -webkit-margin-after: -9px;
+    -webkit-margin-start: 16px;
+    -webkit-margin-end: 0px;
+}
+.niwenwoda .c-publish .bg-primary {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.niwenwoda .c-publish .btn-lg {
+    margin: 5px auto;
+    display: block;
+}
+.publish-btn-relative .btn-publish button{
+    margin-top: -60%;
+    width: 230px;
+}
+
+.niwenwoda .content-2{
+    position: relative;;
+}
+.niwenwoda .content-2 .sidebar-2 {
+    /*position: absolute;*/
+    top: 15%;
+    padding: 5px;
+    margin: 15px auto;
+    /*text-align: center;*/
+    box-shadow: 0 0 5px #000;
+    right: 10%;
+    height: 237px;
+    overflow: hidden;
+}
+.niwenwoda .content-2 .sidebar-2 .swiper-slide{
+    height: 40px;
+}
+
+.niwenwoda .content-2 .sidebar-2 .swiper-slide p {
+    margin-top: 5px;
+    color: #a2002a;
+    font-size: 16px;
+}
+.form-horizontal .form-group{
+    width: 98%;
+    margin: 10px auto;
+}
+.form-horizontal .form-group #input1,#input2,#label1,#label3{
+    padding: 0;
+    margin: 0;
+}
+#label3{
+    margin-left: -15px;
+}
+.help-block{
+    display: block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-left: 322px;
+}
+.form-horizontal .form-group .col-sm-10{
+    margin-top: 10px;
+}
+
+
+
+.head-picture img{
+    display: block;
+    margin: 10px auto;
 }

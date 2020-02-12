@@ -204,6 +204,16 @@ $(function () {
         });*/
 
     $("#wenda").click(function () {
+        let myvideo =  document.getElementById("gsfc-video");
+        myvideo.pause();
+        let myvideo1 =  document.getElementById("zyjs-video");
+        myvideo1.pause();
+
+        // $("#liuxuexuzhi").addClass("btn-primary");
+
+        // $(".content-2>.sidebar-2").css("display", "none");
+        // $(".publish-btn-relative").css("display", "none");
+
         $("#top4").css("display", "block");
         $("#top5").css("display", "none");
 
@@ -376,8 +386,8 @@ $(function () {
         }
     });
 
-   let myvideo5 =  document.getElementById("gsfc-video");
-   myvideo5.play();
+   // let myvideo5 =  document.getElementById("gsfc-video");
+   // myvideo5.play();
    /*視頻下方圖片的mousehover事件*/
 //    $("#swiper-vedio img").hover(function(){
 // 	   $(this).CSS("background","black");
